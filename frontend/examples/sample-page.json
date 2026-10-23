@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "pageTitle": "Northstar Studio",
+  "themeHint": "professional",
+  "components": [
+    {"id":"navbar-main","type":"navbar","props":{"brand":"northstar","links":["Work","Services","About"],"ctaLabel":"Let's talk"}},
+    {"id":"hero-main","type":"hero","props":{"eyebrow":"Independent creative studio","heading":"Make your next big idea impossible to ignore.","body":"We build clear, confident digital experiences for teams ready to move forward.","buttonLabel":"Explore our work","alignment":"left"}},
+    {"id":"text-about","type":"textSection","props":{"heading":"Good work starts with good questions.","body":"Strategy, design and technology should work together. We partner with ambitious people to turn complicated ideas into useful, memorable experiences."}},
+    {"id":"image-work","type":"imagePlaceholder","props":{"label":"Featured project preview","aspectRatio":"16:9"}},
+    {"id":"cards-services","type":"cardGrid","props":{"heading":"What we bring to the table","cards":[{"id":"service-strategy","title":"Strategy","body":"Find the signal in the noise and decide what matters most."},{"id":"service-design","title":"Design","body":"Make every interaction feel intentional, useful and human."},{"id":"service-build","title":"Build","body":"Turn strong ideas into fast, accessible digital products."}]}},
+    {"id":"button-contact","type":"button","props":{"label":"Start a conversation","action":"contact"}},
+    {"id":"footer-main","type":"footer","props":{"text":"Independent by nature. Thoughtful by design.","links":["Instagram","LinkedIn","Email"]}}
+  ],
+  "detectedElements": [
+    {"label":"Top navigation with three links","componentId":"navbar-main"},
+    {"label":"Large left-aligned hero and call to action","componentId":"hero-main"},
+    {"label":"Three service cards","componentId":"cards-services"}
+  ],
+  "uncertainties": ["The original sketch did not specify final photography; an editable placeholder is used."]
+}

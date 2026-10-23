@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "pageTitle": "Fieldnotes — Community Sessions",
+  "themeHint": "colorful",
+  "components": [
+    {"id":"navbar-event","type":"navbar","props":{"brand":"fieldnotes","links":["Schedule","Speakers","Venue"],"ctaLabel":"Get tickets"}},
+    {"id":"hero-event","type":"hero","props":{"eyebrow":"A gathering for curious minds · Bengaluru","heading":"Ideas grow better when we get together.","body":"A one-day meetup for makers, designers and people who love asking better questions.","buttonLabel":"See the schedule","alignment":"center"}},
+    {"id":"text-event","type":"textSection","props":{"heading":"One room. Many perspectives.","body":"Hear short talks, meet collaborators and leave with a notebook full of new directions."}},
+    {"id":"cards-event","type":"cardGrid","props":{"heading":"Make time for what matters","cards":[{"id":"event-talks","title":"Fresh perspectives","body":"Short, generous talks from people doing the work."},{"id":"event-workshops","title":"Hands-on sessions","body":"Try something new with a small group."},{"id":"event-community","title":"Good conversations","body":"Meet your next collaborator over coffee."}]}},
+    {"id":"footer-event","type":"footer","props":{"text":"Fieldnotes Sessions · Bengaluru","links":["Accessibility","Contact"]}}
+  ],
+  "detectedElements": [{"label":"Centered hero","componentId":"hero-event"},{"label":"Three event feature cards","componentId":"cards-event"}],
+  "uncertainties": []
+}

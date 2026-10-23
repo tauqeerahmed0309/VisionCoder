@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0",
+  "pageTitle": "CampusFest",
+  "themeHint": "professional",
+  "components": [
+    {"id": "navbar-1", "type": "navbar", "props": {"brand": "CampusFest", "links": ["Home", "Events", "Contact"]}},
+    {"id": "hero-1", "type": "hero", "props": {"heading": "Build Something Great", "body": "Join our campus event.", "buttonLabel": "Get Started", "alignment": "center"}},
+    {"id": "grid-1", "type": "cardGrid", "props": {"cards": [
+      {"id": "card-1", "title": "Learn", "body": "Explore new skills."},
+      {"id": "card-2", "title": "Build", "body": "Create a prototype."},
+      {"id": "card-3", "title": "Share", "body": "Show your work."}
+    ]}},
+    {"id": "footer-1", "type": "footer", "props": {"text": "Built with Visioncoder", "links": []}}
+  ],
+  "detectedElements": [
+    {"label": "Top navigation bar", "componentId": "navbar-1"},
+    {"label": "Large heading and call-to-action", "componentId": "hero-1"},
+    {"label": "Three content cards", "componentId": "grid-1"}
+  ],
+  "uncertainties": []
+}
