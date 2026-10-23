@@ -1,1 +1,0 @@
-"""Visioncoder backend package."""
